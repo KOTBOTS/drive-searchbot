@@ -125,9 +125,9 @@ class GoogleDriveHelper:
                     content += f'<b> | <a href="https://telegra.ph/{self.path[nxt_page]}">Next</a></b>'
                     nxt_page += 1
             Telegraph(access_token=telegraph_token).edit_page(path = self.path[prev_page],
-                                 title = 'TN57 Mirror Zone',
-                                 author_name='TN57-BotZ',
-                                 author_url='https://t.me/TN57_BotZ',
+                                 title = 'KOT Mirror zone',
+                                 author_name='KOT-BOTS',
+                                 author_url='https://t.me/KOT_BOTS',
                                  html_content=content)
         return
 
